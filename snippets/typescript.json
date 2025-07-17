@@ -1,0 +1,64 @@
+{
+  "Hello Kitty TypeScript Interface": {
+    "prefix": "hki",
+    "body": [
+      "// 🎀 Hello Kitty Interface",
+      "interface ${1:InterfaceName} {",
+      "  ${2:property}: ${3:string};",
+      "  $0",
+      "}"
+    ],
+    "description": "Hello Kitty themed TypeScript interface"
+  },
+  "Hello Kitty TypeScript Function": {
+    "prefix": "hktf",
+    "body": [
+      "// 🎀 Hello Kitty TypeScript Function",
+      "const ${1:functionName} = (${2:param}: ${3:string}): ${4:void} => {",
+      "  $0",
+      "};"
+    ],
+    "description": "Hello Kitty themed TypeScript function"
+  },
+  "Hello Kitty React TypeScript Component": {
+    "prefix": "hkrt",
+    "body": [
+      "import React from 'react';",
+      "",
+      "// 🎀 Hello Kitty React TypeScript Component",
+      "interface ${1:ComponentName}Props {",
+      "  ${2:prop}: ${3:string};",
+      "}",
+      "",
+      "const ${1:ComponentName}: React.FC<${1:ComponentName}Props> = ({ ${2:prop} }) => {",
+      "  return (",
+      "    <div className=\"hello-kitty-component\">",
+      "      <h1>🎀 {${2:prop}}</h1>",
+      "      $0",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Hello Kitty themed React TypeScript component"
+  },
+  "Hello Kitty TypeScript Class": {
+    "prefix": "hkc",
+    "body": [
+      "// 🎀 Hello Kitty TypeScript Class",
+      "class ${1:ClassName} {",
+      "  private ${2:property}: ${3:string};",
+      "",
+      "  constructor(${2:property}: ${3:string}) {",
+      "    this.${2:property} = ${2:property};",
+      "  }",
+      "",
+      "  public ${4:method}(): ${5:void} {",
+      "    $0",
+      "  }",
+      "}"
+    ],
+    "description": "Hello Kitty themed TypeScript class"
+  }
+} 

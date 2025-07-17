@@ -1,0 +1,55 @@
+{
+  "Hello Kitty React Component": {
+    "prefix": "hkr",
+    "body": [
+      "import React from 'react';",
+      "",
+      "// 🎀 Hello Kitty React Component",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div className=\"hello-kitty-component\">",
+      "      <h1>🎀 ${2:Hello Kitty Component}</h1>",
+      "      $0",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Hello Kitty themed React component"
+  },
+  "Hello Kitty Function": {
+    "prefix": "hkf",
+    "body": [
+      "// 🎀 Hello Kitty Function",
+      "const ${1:functionName} = (${2:params}) => {",
+      "  $0",
+      "  return ${3:result};",
+      "};"
+    ],
+    "description": "Hello Kitty themed function"
+  },
+  "Hello Kitty Console Log": {
+    "prefix": "hkl",
+    "body": [
+      "console.log('🎀 Hello Kitty Log:', ${1:message});"
+    ],
+    "description": "Hello Kitty themed console log"
+  },
+  "Hello Kitty CSS Animation": {
+    "prefix": "hka",
+    "body": [
+      "@keyframes helloKittyBounce {",
+      "  0% { transform: translateY(0); }",
+      "  50% { transform: translateY(-10px); }",
+      "  100% { transform: translateY(0); }",
+      "}",
+      "",
+      ".hello-kitty-element {",
+      "  animation: helloKittyBounce 2s infinite;",
+      "  color: #E91E63;",
+      "}"
+    ],
+    "description": "Hello Kitty themed CSS animation"
+  }
+} 

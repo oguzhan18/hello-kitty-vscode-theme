@@ -1,0 +1,47 @@
+{
+  "Hello Kitty Commit Message": {
+    "prefix": "hkgit",
+    "body": [
+      "🎀 ${1:feat}: ${2:add Hello Kitty themed feature}",
+      "",
+      "✨ ${3:Description of the changes made}"
+    ],
+    "description": "Hello Kitty themed git commit message"
+  },
+  "Hello Kitty Bug Fix": {
+    "prefix": "hkbug",
+    "body": [
+      "🐛 ${1:fix}: ${2:resolve Hello Kitty bug}",
+      "",
+      "🔧 ${3:Description of the bug fix}"
+    ],
+    "description": "Hello Kitty themed bug fix commit"
+  },
+  "Hello Kitty Documentation": {
+    "prefix": "hkdoc",
+    "body": [
+      "📖 ${1:docs}: ${2:update Hello Kitty documentation}",
+      "",
+      "📝 ${3:Description of documentation changes}"
+    ],
+    "description": "Hello Kitty themed documentation commit"
+  },
+  "Hello Kitty Style": {
+    "prefix": "hkstyle",
+    "body": [
+      "🎨 ${1:style}: ${2:improve Hello Kitty styling}",
+      "",
+      "💖 ${3:Description of style improvements}"
+    ],
+    "description": "Hello Kitty themed style commit"
+  },
+  "Hello Kitty Refactor": {
+    "prefix": "hkrefactor",
+    "body": [
+      "♻️ ${1:refactor}: ${2:refactor Hello Kitty code}",
+      "",
+      "🔄 ${3:Description of refactoring changes}"
+    ],
+    "description": "Hello Kitty themed refactor commit"
+  }
+} 
