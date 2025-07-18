@@ -2,7 +2,7 @@
   "name": "hello-kitty-theme",
   "displayName": "Hello Kitty Theme",
   "description": "Cute Hello Kitty themed VSCode theme - Full of pink tones and kawaii colors!",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "./extension.js",
   "engines": {
     "vscode": "^1.74.0"
