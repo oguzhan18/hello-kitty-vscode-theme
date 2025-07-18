@@ -1,10 +1,7 @@
 {
   "workbench.colorTheme": "Hello Kitty",
   "workbench.iconTheme": "hello-kitty-icons",
-  "editor.fontFamily": "'Comic Sans MS', 'Baloo', 'Quicksand', 'cursive', 'sans-serif'",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.5,
-  "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -21,6 +18,4 @@
   "files.autoSaveDelay": 1000,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontFamily": "'Comic Sans MS', 'Baloo', 'Quicksand', 'cursive', 'sans-serif'",
-  "terminal.integrated.fontSize": 14
-} 
+  } 
