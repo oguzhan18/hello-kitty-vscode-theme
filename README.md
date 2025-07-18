@@ -2,6 +2,10 @@
 
 A delightful Hello Kitty themed VS Code theme! Filled with pink tones and kawaii colors, this theme will make you smile even while coding.
 
+## 📸 Screenshot
+
+![Hello Kitty VS Code Theme](ss/1.png)
+
 ## 🌸 Features
 
 - **Pink and cute color palette**
